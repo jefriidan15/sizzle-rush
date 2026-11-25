@@ -1,0 +1,35 @@
+/* Sizzle Rush — page chrome around the canvas. The game itself draws
+   everything on the canvas; this only centres it on a warm bistro page. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2e1d10;
+  color: #ffe9c4;
+  font-family: Trebuchet MS, Verdana, sans-serif;
+}
+.wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 12px 10px 24px;
+  text-align: center;
+}
+h1 {
+  margin: 4px 0 0;
+  font-size: 34px;
+  color: #ffb02e;
+  letter-spacing: 2px;
+}
+.tagline { margin: 2px 0 10px; color: #d8c49a; font-style: italic; }
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  border: 4px solid #8a5a2b;
+  border-radius: 10px;
+  background: #c98f5f;
+  cursor: pointer;
+}
+.help { margin: 10px 0 0; font-size: 14px; line-height: 1.7; color: #e8dcc2; }
+.help b { color: #ffd98a; }
